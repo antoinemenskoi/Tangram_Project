@@ -6,10 +6,10 @@ function index() {
 
 	// Change the value of href attribute
 	// to change the css sheet.
-	if (theme.getAttribute("href") != "Styles/index.css") {
-		theme.setAttribute("href", "Styles/index.css");
+	if (theme.getAttribute("href") != "css/index.css") {
+		theme.setAttribute("href", "css/index.css");
 	} else {
-		theme.setAttribute("href", "Styles/index.css");
+		theme.setAttribute("href", "css/index.css");
 	}
 }
 function square() {
@@ -20,10 +20,10 @@ function square() {
 
 	// Change the value of href attribute
 	// to change the css sheet.
-	if (theme.getAttribute("href") != "Styles/square.css") {
-		theme.setAttribute("href", "Styles/square.css");
+	if (theme.getAttribute("href") != "css/square.css") {
+		theme.setAttribute("href", "css/square.css");
 	} else {
-		theme.setAttribute("href", "Styles/square.css");
+		theme.setAttribute("href", "css/square.css");
 	}
 }
 function poule() {
@@ -34,10 +34,10 @@ function poule() {
 
 	// Change the value of href attribute
 	// to change the css sheet.
-	if (theme.getAttribute("href") != "Styles/poule.css") {
-		theme.setAttribute("href", "Styles/poule.css");
+	if (theme.getAttribute("href") != "css/poule.css") {
+		theme.setAttribute("href", "css/poule.css");
 	} else {
-		theme.setAttribute("href", "Styles/poule.css");
+		theme.setAttribute("href", "css/poule.css");
 	}
 }
 	// Obtains an array of all <link>
@@ -47,9 +47,9 @@ var theme = document.getElementById("change-style");
 
 // Change the value of href attribute
 // to change the css sheet.
-if (theme.getAttribute("href") != "Styles/square.css") {
-	theme.setAttribute("href", "Styles/square.css");
+if (theme.getAttribute("href") != "css/square.css") {
+	theme.setAttribute("href", "css/square.css");
 } else {
-		theme.setAttribute("href", "Styles/square.css");
+		theme.setAttribute("href", "css/square.css");
 }
 
