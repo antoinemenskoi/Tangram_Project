@@ -1,0 +1,157 @@
+body{
+  flex-direction: column;
+  display: flex;  
+  align-items: center;
+}
+
+.nav{
+  margin-bottom: 3em;
+}
+
+.container{
+  width:20em;
+  height: 20em;
+}
+
+button{
+  margin-right: 1em;
+}
+
+.greensmalltriangle {
+  width: 10em;
+  height: 10em;
+  clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+  background-color: #8bc03d;
+  position:relative;
+  
+}
+.blueparallelogram{
+  width: 10em;
+  height:5em;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  background-color: #8f91d7;
+  transform: skew(-45deg);
+  position:relative;
+  top:-65em;
+  left:7.45em;
+ }
+
+.orangetriangle{
+  width: 10em;
+  height: 5em;
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+  background-color: #fe9832;
+  position:relative;
+  top:-55em;
+  left:5em;
+}
+
+.redsquare{
+  width: 10em;
+  height: 10em;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  background-color:#f96764;
+  position:relative;
+  top:-45em;
+  left:0em;
+}
+
+.bluetriangle{
+  width: 5em;
+  height: 10em;
+  clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+  background-color:#3396f8;
+  position:relative;
+  top:0em;
+  left:0em;
+}
+
+.greenbigtriangle{
+  width: 20em;
+  height: 10em;
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+  background-color: #33c763;
+  position:relative;
+  top: -10em;
+  left:0em;
+}
+
+.yellowbigtriangle{
+  width: 10em;
+  height: 20em;
+  clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+  background-color:#f9c30f;
+  position:relative;
+  top:-30em;
+  left:10em;
+}
+
+
+/*media queries*/
+@media screen and (min-width:711px){
+  .container {
+    width:40em ;
+    height: 40em;
+    }
+    button{
+      margin-right: 3em;
+    }
+    
+.greensmalltriangle {
+  width: 20em;
+  height:20em;
+  position: relative;
+  top:0em;
+  left:0em;
+}
+
+.blueparallelogram{
+  width: 20.05em;
+  height:10em;
+  position: relative;
+  top:-130em;
+  left:14.974em;
+ }
+
+.orangetriangle{
+  width: 20em;
+  height:10em;
+  position: relative;
+  top:-110em;
+  left:10em;
+}
+
+.redsquare{
+  width: 20em;
+  height:20em;
+  position: relative;
+  top:-90em;
+  left:0em;
+}
+
+.bluetriangle{
+  width: 10em;
+  height:20em;
+  position: relative;
+  top:0em;
+  left:0em;
+}
+
+.greenbigtriangle{
+  width: 40em;
+  height:20em;
+  position:relative;
+  top:-20em;
+  left:0em;
+}
+
+.yellowbigtriangle{
+  width: 20em;
+  height:40em;
+  position:relative;
+  top:-60em;
+  left:20em;
+}
+ 
+  }
+
