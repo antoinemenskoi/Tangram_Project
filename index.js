@@ -26,20 +26,7 @@ function square() {
 		theme.setAttribute("href", "css/square.css");
 	}
 }
-function poule() {
-	// Obtains an array of all <link>
-	// elements.
-	// Select your element using indexing.
-	var theme = document.getElementById("change-style");
 
-	// Change the value of href attribute
-	// to change the css sheet.
-	if (theme.getAttribute("href") != "css/poule.css") {
-		theme.setAttribute("href", "css/poule.css");
-	} else {
-		theme.setAttribute("href", "css/poule.css");
-	}
-}
 	// Obtains an array of all <link>
 	// elements.
 	// Select your element using indexing.
@@ -67,5 +54,22 @@ function patineur() {
 		theme.setAttribute("href", "css/patineur.css");
 	} else {
 		theme.setAttribute("href", "css/patineur.css");
+	}
+}
+
+// la danseuse
+
+function danseuse() {
+	// Obtains an array of all <link>
+	// elements.
+	// Select your element using indexing.
+	var theme = document.getElementById("change-style");
+
+	// Change the value of href attribute
+	// to change the css sheet.
+	if (theme.getAttribute("href") != "css/danseuse.css") {
+		theme.setAttribute("href", "css/danseuse.css");
+	} else {
+		theme.setAttribute("href", "css/danseuse.css");
 	}
 }
