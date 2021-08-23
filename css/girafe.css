@@ -32,11 +32,7 @@
   transform: translateX(10em) translateY(-18em) rotate(-90deg);
   transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
-@media screen and (min-width: 1024px) {
-  #main {
-    transform: scale(100%) translateY(4em);
-  }
-}
+
 @media screen and (max-width: 1024px) {
   #main {
     transform: scale(100%) translateY(4em);
@@ -46,7 +42,6 @@
 @media screen and (max-width: 700px) {
   #main {
     transform: scale(70%) translate(-0.5em);
-  
   }
 }
 @media screen and (max-width: 320px) {

@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgba(247, 240, 241, 0.87);
+}
+
 #block-page {
   display: flex;
   justify-content: center;
@@ -72,6 +76,45 @@
   background-color: #3396f8;
 }
 
+/* BUTTONS */
+
+#index {
+  background-color: lightblue;
+}
+
+#square {
+  background-color: #f9c30f;
+}
+#poule {
+  background-color: #33c763;
+}
+#chat {
+  background-color: #3396f8;
+}
+#girafe {
+  background-color: #8bc03d;
+}
+#danceuse {
+  background-color: #e6c1e1;
+}
+#oiseau {
+  background-color: #f96764;
+}
+#avion {
+  background-color: #8f91d7;
+}
+#kangourou {
+  background-color: #ad6822;
+}
+#pyramides {
+  background-color: #f8b333;
+}
+
+button {
+  display: inline-block;
+  width: 10em;
+}
+
 @media screen and (max-width: 1024px) {
   #main {
     transform: scale(100%);
@@ -86,5 +129,14 @@
 @media screen and (max-width: 320px) {
   #main {
     transform: scale(35%);
+  }
+  button {
+    display: block;
+    width: 27em;
+    margin-top: 3px;
+  }
+
+  #block-page {
+    align-items: flex-start;
   }
 }
