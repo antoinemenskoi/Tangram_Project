@@ -1,64 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link href="css/index.css" rel="stylesheet" type="text/css">
-        <link id="change-style" href="css/index.css" rel="stylesheet" type="text/css">
-        <title>Titre</title>
-    </head>
 
-    <body>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link id="change-style" href="css/index.css" rel="stylesheet" type="text/css">
+    <title>Titre</title>
+</head>
+
+<body>
+    <div class="dropdown">
         <div id="block-page">
             <header>
-                <nav>
-                    <button onclick="swap('css/index.css')">
-                        Index
-                    </button>
-                    <button onclick="swap('css/square.css')">
-                        Basic
-                    </button >
-                    <button onclick="swap('css/poule.css')">
-                        Poule
-                    </button>
-                    <button onclick="swap('css/chat.css')">
-                        Chat
-                    </button>
-                    <button onclick="swap('css/oiseau.css')">
-                        L'oiseau
-                    </button>
-                    <button>
-                        Index
-                    </button>
+                <nav class="dropdown-child">
+                    <button id="index" onclick="index()">Basic</button>
+                    <button id="square" onclick="square()">Square</button>
+                    <button id="poule" onclick="poule()">Poule</button>
+                    <button id="chat" onclick="chat()">Chat</button>
+                    <button id="girafe" onclick="girafe()">Girafe</button>
+                    <button id="danceuse" onclick="danseuse()">danseuse</button>
+                    <button id="oiseau" onclick="oiseau()">oiseau</button>
+                    <button id="avion" onclick="avion()">avion</button>
+                    <button id="kangourou" onclick="kangourou()">kangourou</button>
+                    <button id="pyramides" onclick="pyramides()">pyramides</button>
                 </nav>
             </header>
-            
             <div id="main">
-                    <div id="greenSmallTriangle" class="figure greenSmallTriangle">
-    
-                    </div>
-                    <div id="blue-Triangle" class="figure blue-Triangle">
-    
-                    </div>
-                    <div id="red-Square" class="figure red-Square">
-                            
-                    </div>
-                    <div id="orange-Triangle" class="figure orange-Triangle">
-                            
-                    </div>
-                    <div id="blue-Parallelogram" class="figure blue-Parallelogram">
-    
-                    </div>
-                    <div id="bigGreen-Triangle" class="figure bigGreen-Triangle">
-    
-                    </div>
-                    <div id="bigYellow-Triangle" class="figure bigYellow-Triangle">
-    
-                    </div> 
+                <div id="greenSmallTriangle" class="figure greenSmallTriangle"></div>
+                <div id="blue-Triangle" class="figure blue-Triangle"></div>
+                <div id="red-Square" class="figure red-Square"></div>
+                <div id="orange-Triangle" class="figure orange-Triangle"></div>
+                <div id="blue-Parallelogram" class="figure blue-Parallelogram"></div>
+                <div id="bigGreen-Triangle" class="figure bigGreen-Triangle"></div>
+                <div id="bigYellow-Triangle" class="figure bigYellow-Triangle">
+                </div>
             </div>
         </div>
-        
         <script src="index.js"></script>
-    </body>
+</body>
+
 </html>
