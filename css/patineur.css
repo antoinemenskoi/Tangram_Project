@@ -1,0 +1,39 @@
+.bigYellow-Triangle{
+    transform: translateX(-23.8rem) translateY(-11rem) rotate(261deg);	
+    transition: transform 1s cubic-bezier(.45, -1.12, .35,1.78);
+}
+.bigGreen-Triangle{
+
+    transform: translateX(-20.4rem)  translateY(-3.7rem) rotate(352deg) ;	
+    transition: transform 1s cubic-bezier(.45, -1.12, .35,1.78);
+}
+
+.blue-Triangle{
+
+    transform:  translateX(-29.2rem)  translateY(17.9rem) rotate(38deg) ;
+    transition: transform 1s cubic-bezier(.45, -1.12, .35,1.78);
+}
+
+.red-Square{
+
+    transform:  translateX(-24.9rem)  translateY(-20.5rem) rotate(59deg);
+    transition: transform 1s cubic-bezier(.45, -1.12, .35,1.78);
+}
+
+.blue-Parallelogram{
+
+    transform:  translateX(-8.1rem) translateY(4.1rem) rotate(37deg);	
+    transition: transform 1s cubic-bezier(.45, -1.12, .35,1.78);
+
+}
+.orange-Triangle {
+
+    transform: translateX(1.3rem)  translateY(5rem) rotate(217deg)	;
+    transition: transform 1s cubic-bezier(.45, -1.12, .35,1.78);
+
+}
+.greenSmallTriangle {
+
+    transform:  translateX(-23.9rem)  translateY(6.7rem) rotate(351.9deg);	
+    transition: transform 1s cubic-bezier(.45, -1.12, .35,1.78);
+}
