@@ -29,19 +29,19 @@
   transform: translateX(-2.3rem) translateY(20.6rem) rotate(45deg);
   transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
-@media screen and (max-width: 1024px) {
-  #main {
-    transform: scale(100%);
-  }
-}
 
 @media screen and (max-width: 700px) {
   #main {
-    transform: scale(75%);
+    transform: scale(65%) translateX(-6em);
+  }
+}
+@media screen and (max-width: 480px) {
+  #main {
+    transform: scale(40%) translateX(-6em);
   }
 }
 @media screen and (max-width: 320px) {
   #main {
-    transform: scale(35%);
+    transform: scale(35%) translateX(-8em);
   }
 }
