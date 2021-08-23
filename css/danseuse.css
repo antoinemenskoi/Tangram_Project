@@ -1,43 +1,48 @@
-.bigYellow-Triangle{
-    transform: translateX(-4.4rem) rotate(-170.1deg) translateY(-7.9rem);	
-    transition: transform 1s cubic-bezier(.45, -1.12, .35,1.78);
+.bigYellow-Triangle {
+  transform: translateX(7.7rem) rotate(198deg) translateY(-14.9rem);
+  transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
-.bigGreen-Triangle{
-
-    transform: rotate(194deg) translateX(16.6rem)  translateY(5.3rem) ;	
-    transition: transform 1s cubic-bezier(.45, -1.12, .35,1.78);
-}
-
-.blue-Triangle{
-
-    transform:  translateX(-17rem)  translateY(20rem) rotate(210deg);
-    transition: transform 1s cubic-bezier(.45, -1.12, .35,1.78);
+.bigGreen-Triangle {
+  transform: rotate(198deg) translateX(4.9rem) translateY(2.4rem);
+  transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
-.red-Square{
-
-    transform:  translateX(-15.5rem)  translateY(-19.5rem) rotate(18deg);	
-    transition: transform 1s cubic-bezier(.45, -1.12, .35,1.78);
+.blue-Triangle {
+  transform: translateX(-9rem) translateY(25rem) rotate(210deg);
+  transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
-.blue-Parallelogram{
-    transform:  translateX(-11.4rem)  translateY(-4.5rem) rotate(-35deg);	
-    transition: transform 1s cubic-bezier(.45, -1.12, .35,1.78);
+.red-Square {
+  transform: translateX(-3.5rem) translateY(-14.5rem) rotate(18deg);
+  transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
 
+.blue-Parallelogram {
+  transform: translateX(-0.8rem) translateY(1.4rem) rotate(-27deg);
+  transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 .orange-Triangle {
-    transform:  translateX(-2rem)  translateY(16rem) rotate(47deg);	
-    transition: transform 1s cubic-bezier(.45, -1.12, .35,1.78);
-
+  transform: translateX(7rem) translateY(22.5rem) rotate(47deg);
+  transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 .greenSmallTriangle {
-
-    transform:  translateX(-10.2rem)  translateY(3.8rem) rotate(324.9deg);	
-    transition: transform 1s cubic-bezier(.45, -1.12, .35,1.78);
+  transform: translateX(-0.8rem) translateY(9.8rem) rotate(-27deg);
+  transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
-/* Code of the buttons */
-/* 
-.btn {
+@media screen and (max-width: 1024px) {
+  #main {
+    transform: scale(100%);
+  }
+}
 
-} */
+@media screen and (max-width: 700px) {
+  #main {
+    transform: scale(75%);
+  }
+}
+@media screen and (max-width: 320px) {
+  #main {
+    transform: scale(35%);
+  }
+}
